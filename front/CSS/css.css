@@ -1,0 +1,318 @@
+body {
+
+    background-image: url(background.jpg);
+    /* background-image: url(data:image/jpeg;base64,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); */
+    background-size: 100%;
+    background-repeat: repeat-y;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Header */
+.header__h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.header__subtitle {
+    color: gray;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*Maincontent*/
+.maincont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px #35639a inset;
+    background-color: #3564a5;
+    width: 800px;
+    height: 50px;
+    margin-top:30px;
+}
+
+.project_calendar {
+    height: 32px;
+    width: 32px;
+    background-size: 100%;
+    background-image: url(calendar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.project_label{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 600px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.project_edit {
+    height: 25px;
+    width: 25px;
+    background-image: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.project_delete {
+    height: 25px;
+    width: 25px;
+    background-image: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.project_calendar:hover {
+     height: 32px;
+    width: 32px;
+    background-image: url(calendar32.png);
+    background-size: 100%;
+    transition: .2s;
+    cursor: pointer;
+}
+.head:hover .project_edit {
+    height: 25px;
+    width: 25px;
+    background-image: url(pencil.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.head:hover .project_delete {
+    height: 25px;
+    width: 25px;
+    background-image: url(bin.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*Tasker*/
+.addtask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 50px;
+    background-color: rgb(219, 211, 211);
+    border-bottom: gray 1px inset;
+}
+.addtask_plus {
+font-size: 30px;
+color:#629979;
+font-weight: 900;
+margin-right: 10px;
+}
+ .addtask_input {
+    height: 30px;
+    width: 650px;
+    background-color: #fff;
+    font-size: 20px;
+    padding-left: 15px; 
+
+} 
+.addtask_button {
+    background-color: #629979;
+    height: 30px;
+    padding: 5px 10px;
+    width: 100px;
+    border: 1px #447557 inset;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+}
+.addtask_button:hover {
+background-color: #77b390;
+transition: color .5s;
+cursor: pointer;
+}
+/*Taskmenu*/
+.taskmenu {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.finishedtasks {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-radius: 10px;
+    margin-top:10px;
+}
+.priortasks {
+    width: 100%;
+    height: 100%;
+}
+.task {
+    height: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px  rgb(164, 164, 235) solid;
+}
+.task_label {
+    width: 650px;
+    border-left: 1px pink solid;
+    border-right: 1px rgb(164, 164, 235) solid;
+    height: 50px;
+    cursor: pointer;
+    padding-left:15px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+.task_input {
+    width: 650px;
+    border-left: 1px pink solid;
+    border-right: 1px rgb(164, 164, 235) solid;
+    height: 50px;
+    cursor: pointer;
+    padding-left:15px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+.task_applyedit {
+    width: 90px;
+    padding-right:10px;
+    margin-right: 10px;
+    height: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(confirm.png);
+}
+
+.task_block_check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-right: 1px pink solid;
+    margin-right: 5px;
+}
+.task:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.task_prior{
+    background-repeat: no-repeat;
+    background-position: center;
+    background:none;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    }
+.task_edit{
+    background-repeat: no-repeat;
+    background-position: center;
+    background:none;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.task_delete{
+    background-repeat: no-repeat;
+    background-position: center;
+    background:none;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.task:hover {
+    background-color: rgb(245, 230, 208);
+    cursor: pointer;
+}
+
+.task:hover .task_prior {
+    background-image: url(up-and-down.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    border-right: 1px gray solid;
+    
+}
+.task:hover .task_edit{
+    background-image: url(pencil16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    border-right: 1px gray solid;
+    
+}
+.task:hover .task_delete{
+    background-image: url(bin16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+}
+/*Addtodo*/
+.addtodolist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: #4365a8;
+    border-radius: 3px;
+    border: 1px #35639a inset;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.addtodolist:hover{
+    background-color: blueviolet;
+    transition: color .5s;
+    cursor: pointer;
+
+}
+.plus_addtodolist {
+    line-height: normal;
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+    text-align: center;
+}
+.logo{
+    color:#fff;
+
+}

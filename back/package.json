@@ -1,0 +1,21 @@
+{
+  "name": "rubygarage",
+  "version": "1.0.0",
+  "description": "test-for-rubygarage",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+    
+  },
+  "author": "Latyshev Dmitry <gliffy@ukr.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "pg": "^8.0.0"
+  }
+}
